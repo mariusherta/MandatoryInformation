@@ -7,6 +7,7 @@ package gui;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.JCheckBox;
 
 /**
  *
@@ -77,61 +78,64 @@ public class MainFrame extends javax.swing.JFrame {
     
     
     private void clearCheckBoxes(){
-        jCheckBox5.setSelected(false);
-        jCheckBox6.setSelected(false);
-        jCheckBox7.setSelected(false);
-        jCheckBox8.setSelected(false);
-        jCheckBox9.setSelected(false);
-        jCheckBox10.setSelected(false);
-        jCheckBox11.setSelected(false);
-        jCheckBox12.setSelected(false);
-        jCheckBox13.setSelected(false);
-        jCheckBox14.setSelected(false);
-        jCheckBox15.setSelected(false);
-        jCheckBox16.setSelected(false);
-        jCheckBox17.setSelected(false);
-        jCheckBox18.setSelected(false);
-        jCheckBox19.setSelected(false);        
-        jCheckBox20.setSelected(false);
-        jCheckBox1.setSelected(false);
-        jCheckBox2.setSelected(false);
-        jCheckBox32.setSelected(false);
-        jCheckBox33.setSelected(false);
-        jCheckBox34.setSelected(false);
-        jCheckBox36.setSelected(false);
-        jCheckBox42.setSelected(false);
-        jCheckBox43.setSelected(false);
-        jCheckBox44.setSelected(false);
-        jCheckBox46.setSelected(false);
-        jCheckBox50.setSelected(false);
-        jCheckBox21.setSelected(false);
-        jCheckBox22.setSelected(false);
-        jCheckBox23.setSelected(false);
-        jCheckBox24.setSelected(false);
-        jCheckBox25.setSelected(false);
-        jCheckBox26.setSelected(false);
-        jCheckBox27.setSelected(false);
-        jCheckBox28.setSelected(false);
-        jCheckBox29.setSelected(false);
-        jCheckBox30.setSelected(false);
-        jCheckBox31.setSelected(false);
-        jCheckBox35.setSelected(false);
-        jCheckBox37.setSelected(false);
-        jCheckBox39.setSelected(false);
-        jCheckBox51.setSelected(false);
-        jCheckBox52.setSelected(false);
-        jCheckBox55.setSelected(false);
-        jCheckBox60.setSelected(false);
-        jCheckBox61.setSelected(false);
-        jCheckBox62.setSelected(false);
-        jCheckBox64.setSelected(false);
-        jCheckBox65.setSelected(false);
-        jCheckBox66.setSelected(false);
-        jCheckBox38.setSelected(false);
-        jCheckBox4.setSelected(false);
-        jCheckBox5.setSelected(false);
+    JCheckBox[] checkboxes =
+            new JCheckBox[]{
+                jCheckBox1,
+        jCheckBox5,
+        jCheckBox6,
+        jCheckBox7,
+        jCheckBox8,
+        jCheckBox9,
+        jCheckBox10,
+        jCheckBox11,
+        jCheckBox12,
+        jCheckBox13,
+        jCheckBox14,
+        jCheckBox15,
+        jCheckBox16,
+        jCheckBox17,
+        jCheckBox18,
+        jCheckBox19,        
+        jCheckBox20,
+        jCheckBox1,
+        jCheckBox2,
+        jCheckBox32,
+        jCheckBox33,
+        jCheckBox34,
+        jCheckBox36,
+        jCheckBox42,
+        jCheckBox43,
+        jCheckBox44,
+        jCheckBox46,
+        jCheckBox50,
+        jCheckBox21,
+        jCheckBox22,
+        jCheckBox23,
+        jCheckBox24,
+        jCheckBox25,
+        jCheckBox26,
+        jCheckBox27,
+        jCheckBox28,
+        jCheckBox29,
+        jCheckBox30,
+        jCheckBox31,
+        jCheckBox35,
+        jCheckBox37,
+        jCheckBox39,
+        jCheckBox51,
+        jCheckBox52,
+        jCheckBox55,
+        jCheckBox60,
+        jCheckBox61,
+        jCheckBox62,
+        jCheckBox64,
+        jCheckBox66,
+        jCheckBox38,
+        jCheckBox4,
+        jCheckBox5,
+            };
         
-                
+        
     }
     
     private void setAlwaysOnTop(){
@@ -147,6 +151,7 @@ public class MainFrame extends javax.swing.JFrame {
     private void initComponents() {
 
         jCheckBox34 = new javax.swing.JCheckBox();
+        jPanel8 = new javax.swing.JPanel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel5 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
@@ -156,94 +161,130 @@ public class MainFrame extends javax.swing.JFrame {
         jCheckBox46 = new javax.swing.JCheckBox();
         jCheckBox43 = new javax.swing.JCheckBox();
         jCheckBox42 = new javax.swing.JCheckBox();
-        jCheckBox50 = new javax.swing.JCheckBox();
         jButton5 = new javax.swing.JButton();
         jCheckBox2 = new javax.swing.JCheckBox();
         jCheckBox3 = new javax.swing.JCheckBox();
         jCheckBox6 = new javax.swing.JCheckBox();
         jCheckBox12 = new javax.swing.JCheckBox();
-        jCheckBox13 = new javax.swing.JCheckBox();
+        jCheckBox58 = new javax.swing.JCheckBox();
+        jCheckBox59 = new javax.swing.JCheckBox();
         jPanel1 = new javax.swing.JPanel();
         jCheckBox51 = new javax.swing.JCheckBox();
         jCheckBox52 = new javax.swing.JCheckBox();
-        jCheckBox55 = new javax.swing.JCheckBox();
         jCheckBox60 = new javax.swing.JCheckBox();
-        jCheckBox61 = new javax.swing.JCheckBox();
-        jCheckBox64 = new javax.swing.JCheckBox();
         jButton6 = new javax.swing.JButton();
         jCheckBox38 = new javax.swing.JCheckBox();
-        jCheckBox9 = new javax.swing.JCheckBox();
-        jCheckBox7 = new javax.swing.JCheckBox();
-        jCheckBox14 = new javax.swing.JCheckBox();
-        jCheckBox15 = new javax.swing.JCheckBox();
+        jCheckBox67 = new javax.swing.JCheckBox();
         jPanel2 = new javax.swing.JPanel();
         jCheckBox21 = new javax.swing.JCheckBox();
         jCheckBox22 = new javax.swing.JCheckBox();
-        jCheckBox23 = new javax.swing.JCheckBox();
         jCheckBox24 = new javax.swing.JCheckBox();
         jButton2 = new javax.swing.JButton();
-        jCheckBox25 = new javax.swing.JCheckBox();
-        jCheckBox66 = new javax.swing.JCheckBox();
-        jCheckBox8 = new javax.swing.JCheckBox();
-        jCheckBox10 = new javax.swing.JCheckBox();
-        jCheckBox16 = new javax.swing.JCheckBox();
+        jCheckBox68 = new javax.swing.JCheckBox();
         jPanel9 = new javax.swing.JPanel();
         jCheckBox44 = new javax.swing.JCheckBox();
         jCheckBox62 = new javax.swing.JCheckBox();
         jCheckBox1 = new javax.swing.JCheckBox();
-        jCheckBox65 = new javax.swing.JCheckBox();
         jButton1 = new javax.swing.JButton();
         jCheckBox4 = new javax.swing.JCheckBox();
         jCheckBox17 = new javax.swing.JCheckBox();
-        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jCheckBox7 = new javax.swing.JCheckBox();
+        jCheckBox69 = new javax.swing.JCheckBox();
+        jLabel3 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jCheckBox26 = new javax.swing.JCheckBox();
         jCheckBox27 = new javax.swing.JCheckBox();
         jButton3 = new javax.swing.JButton();
         jCheckBox5 = new javax.swing.JCheckBox();
+        jCheckBox40 = new javax.swing.JCheckBox();
+        jCheckBox41 = new javax.swing.JCheckBox();
+        jCheckBox45 = new javax.swing.JCheckBox();
+        jCheckBox47 = new javax.swing.JCheckBox();
+        jCheckBox48 = new javax.swing.JCheckBox();
+        jCheckBox76 = new javax.swing.JCheckBox();
         jPanel4 = new javax.swing.JPanel();
         jCheckBox28 = new javax.swing.JCheckBox();
         jCheckBox29 = new javax.swing.JCheckBox();
         jCheckBox30 = new javax.swing.JCheckBox();
-        jCheckBox31 = new javax.swing.JCheckBox();
         jButton4 = new javax.swing.JButton();
         jCheckBox11 = new javax.swing.JCheckBox();
         jCheckBox18 = new javax.swing.JCheckBox();
-        jCheckBox19 = new javax.swing.JCheckBox();
+        jCheckBox63 = new javax.swing.JCheckBox();
         jPanel7 = new javax.swing.JPanel();
         jCheckBox20 = new javax.swing.JCheckBox();
         jCheckBox35 = new javax.swing.JCheckBox();
+        jCheckBox49 = new javax.swing.JCheckBox();
+        jCheckBox53 = new javax.swing.JCheckBox();
+        jCheckBox54 = new javax.swing.JCheckBox();
+        jCheckBox56 = new javax.swing.JCheckBox();
+        jCheckBox57 = new javax.swing.JCheckBox();
+        jButton7 = new javax.swing.JButton();
+        jCheckBox64 = new javax.swing.JCheckBox();
+        jPanel10 = new javax.swing.JPanel();
+        jCheckBox8 = new javax.swing.JCheckBox();
+        jCheckBox9 = new javax.swing.JCheckBox();
+        jCheckBox10 = new javax.swing.JCheckBox();
+        jCheckBox13 = new javax.swing.JCheckBox();
+        jCheckBox14 = new javax.swing.JCheckBox();
+        jCheckBox15 = new javax.swing.JCheckBox();
+        jCheckBox16 = new javax.swing.JCheckBox();
+        jCheckBox19 = new javax.swing.JCheckBox();
+        jCheckBox23 = new javax.swing.JCheckBox();
+        jCheckBox25 = new javax.swing.JCheckBox();
+        jCheckBox31 = new javax.swing.JCheckBox();
+        jButton8 = new javax.swing.JButton();
+        jCheckBox66 = new javax.swing.JCheckBox();
+        jPanel11 = new javax.swing.JPanel();
         jCheckBox37 = new javax.swing.JCheckBox();
         jCheckBox39 = new javax.swing.JCheckBox();
+        jCheckBox50 = new javax.swing.JCheckBox();
+        jCheckBox55 = new javax.swing.JCheckBox();
+        jCheckBox70 = new javax.swing.JCheckBox();
+        jButton9 = new javax.swing.JButton();
+        jPanel12 = new javax.swing.JPanel();
+        jCheckBox61 = new javax.swing.JCheckBox();
+        jCheckBox71 = new javax.swing.JCheckBox();
+        jLabel4 = new javax.swing.JLabel();
+        jCheckBox72 = new javax.swing.JCheckBox();
+        jCheckBox73 = new javax.swing.JCheckBox();
+        jCheckBox74 = new javax.swing.JCheckBox();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jButton10 = new javax.swing.JButton();
+        jCheckBox75 = new javax.swing.JCheckBox();
 
         jCheckBox34.setText("resurse suplimentare, bonusuri, alte oferte");
 
+        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
+        jPanel8.setLayout(jPanel8Layout);
+        jPanel8Layout.setHorizontalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
+        );
+        jPanel8Layout.setVerticalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
+        );
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jCheckBox32.setText("taxe abonament si optiuni in euro, TVA inclus");
+        jCheckBox32.setText("Suma de plata (servicii+rate)");
 
-        jCheckBox33.setText("resurse incluse voce (national, international, roaming), date, sms");
+        jCheckBox33.setText("Plata prin MyOrange");
 
-        jCheckBox36.setText("abonament cu sau fara resurse de roaming");
+        jCheckBox36.setText("Info plata in avans");
 
-        jCheckBox46.setText("data la care se implementeaza oferta");
+        jCheckBox46.setText("Identificare pentru modificari si detalii");
 
-        jCheckBox43.setText("14 zile calendaristice anulare oferta");
+        jCheckBox43.setText("Solutii pentru plata in scadenta");
 
-        jCheckBox42.setText("prelungire contractuala");
-
-        jCheckBox50.setFont(new java.awt.Font("Helvetica 75 Bold", 0, 14)); // NOI18N
-        jCheckBox50.setForeground(new java.awt.Color(204, 0, 0));
-        jCheckBox50.setText("Aplica procedura de identificare");
-        jCheckBox50.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox50ActionPerformed(evt);
-            }
-        });
+        jCheckBox42.setText("Confirmare invoice reminder + e-mail");
 
         jButton5.setText("Alt apel");
 
-        jCheckBox2.setText("adresa trimitere act aditional");
+        jCheckBox2.setText("PA=Predictive - Promise payment");
 
         jCheckBox3.setText("Always on top");
         jCheckBox3.addActionListener(new java.awt.event.ActionListener() {
@@ -252,23 +293,18 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
-        jCheckBox6.setText("promoveaza acordul din aplicatie");
+        jCheckBox6.setText("Promo servicii automate: myaccount, selfcare, IVR");
 
-        jCheckBox12.setText("bonusuri/reduceri si valabilitatea lor");
+        jCheckBox12.setText("Penalitati");
         jCheckBox12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox12ActionPerformed(evt);
             }
         });
 
-        jCheckBox13.setFont(new java.awt.Font("Helvetica 75 Bold", 1, 14)); // NOI18N
-        jCheckBox13.setForeground(new java.awt.Color(204, 0, 0));
-        jCheckBox13.setText("Asigura-te ca ai ofertat tot contul");
-        jCheckBox13.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox13ActionPerformed(evt);
-            }
-        });
+        jCheckBox58.setText("Solicita-i o data in care crede ca poate achita, negociaza cu acesta o zi certa in care sa achite");
+
+        jCheckBox59.setText("Recomanda-i sa faca confirmare de plata daca achita la banca, automate, posta");
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -278,9 +314,7 @@ public class MainFrame extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addGap(161, 161, 161)
-                        .addComponent(jButton5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(161, 510, Short.MAX_VALUE)
                         .addComponent(jCheckBox3))
                     .addGroup(jPanel6Layout.createSequentialGroup()
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -292,14 +326,15 @@ public class MainFrame extends javax.swing.JFrame {
                             .addComponent(jCheckBox42)
                             .addComponent(jCheckBox6)
                             .addComponent(jCheckBox43, javax.swing.GroupLayout.PREFERRED_SIZE, 268, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jCheckBox12))
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
-                        .addGap(0, 202, Short.MAX_VALUE)
-                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jCheckBox13)
-                            .addComponent(jCheckBox50, javax.swing.GroupLayout.PREFERRED_SIZE, 357, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(jCheckBox12)
+                            .addComponent(jCheckBox58)
+                            .addComponent(jCheckBox59))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addGap(248, 248, 248)
+                .addComponent(jButton5)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -321,19 +356,15 @@ public class MainFrame extends javax.swing.JFrame {
                 .addComponent(jCheckBox6)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jCheckBox12)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 75, Short.MAX_VALUE)
-                .addComponent(jCheckBox50)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox13)
-                        .addGap(40, 40, 40)
-                        .addComponent(jButton5)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
-                        .addGap(85, 85, 85)
-                        .addComponent(jCheckBox3)
-                        .addContainerGap())))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox58)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox59)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 147, Short.MAX_VALUE)
+                .addComponent(jButton5)
+                .addGap(8, 8, 8)
+                .addComponent(jCheckBox3)
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
@@ -347,48 +378,22 @@ public class MainFrame extends javax.swing.JFrame {
             .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
-        jTabbedPane1.addTab("Accepta oferta voce", jPanel5);
+        jTabbedPane1.addTab("Campanie Rate", jPanel5);
 
-        jCheckBox51.setText("taxe abonament si optiuni in euro, TVA inclus");
+        jCheckBox51.setText(" Ii detaliezi clientului modalitatile de retur");
 
-        jCheckBox52.setText("trafic date inclus");
+        jCheckBox52.setText("Comunici care este termenul de retur conform procedurii");
 
-        jCheckBox55.setText("abonament cu sau fara resurse de roaming");
-
-        jCheckBox60.setText("prelungire contractuala");
-
-        jCheckBox61.setText("14 zile calendaristice anulare oferta");
-
-        jCheckBox64.setFont(new java.awt.Font("Helvetica 75 Bold", 0, 14)); // NOI18N
-        jCheckBox64.setForeground(new java.awt.Color(204, 0, 0));
-        jCheckBox64.setText("Aplica procedura de identificare");
-        jCheckBox64.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox64ActionPerformed(evt);
-            }
-        });
+        jCheckBox60.setText(" Daca plata e facuta din contul online se va da refund din OWS");
 
         jButton6.setText("Alt apel");
 
-        jCheckBox38.setText("data la care intra in vigoare oferta");
+        jCheckBox38.setText("Te asiguri ca solicitarea vine din partea titularului (pentru retur sub 100 lei se preia clientul pe coada, se face telefonic)");
 
-        jCheckBox9.setText("promoveaza acordul din aplicatie");
-
-        jCheckBox7.setText("adresa trimitere act aditional");
-
-        jCheckBox14.setText("bonusuri/reduceri si valabilitatea lor");
-        jCheckBox14.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox67.setText("Always on top");
+        jCheckBox67.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox14ActionPerformed(evt);
-            }
-        });
-
-        jCheckBox15.setFont(new java.awt.Font("Helvetica 75 Bold", 1, 14)); // NOI18N
-        jCheckBox15.setForeground(new java.awt.Color(204, 0, 0));
-        jCheckBox15.setText("Asigura-te ca ai ofertat tot contul");
-        jCheckBox15.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox15ActionPerformed(evt);
+                jCheckBox67ActionPerformed(evt);
             }
         });
 
@@ -400,35 +405,18 @@ public class MainFrame extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jCheckBox55)
-                            .addComponent(jCheckBox51)
-                            .addComponent(jCheckBox52)
-                            .addComponent(jCheckBox60)
-                            .addComponent(jCheckBox61))
-                        .addGap(58, 58, 58))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addGap(0, 320, Short.MAX_VALUE)
-                        .addComponent(jButton6)
-                        .addGap(173, 173, 173))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jCheckBox38)
-                        .addGap(0, 0, Short.MAX_VALUE))))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jCheckBox9)
-                    .addComponent(jCheckBox7)
-                    .addComponent(jCheckBox14))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(59, 59, 59)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jCheckBox15)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(jCheckBox64, javax.swing.GroupLayout.DEFAULT_SIZE, 506, Short.MAX_VALUE))
-                .addContainerGap())
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jButton6)
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jCheckBox51)
+                                .addComponent(jCheckBox52)
+                                .addComponent(jCheckBox60)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jCheckBox67)
+                        .addGap(19, 19, 19))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -441,53 +429,30 @@ public class MainFrame extends javax.swing.JFrame {
                 .addComponent(jCheckBox52)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jCheckBox60)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox55)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox61)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox9)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox7)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox14)
-                .addGap(56, 56, 56)
-                .addComponent(jCheckBox64)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox15)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 60, Short.MAX_VALUE)
-                .addComponent(jButton6)
-                .addContainerGap())
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 314, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(jCheckBox67)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(jButton6)
+                        .addGap(25, 25, 25))))
         );
 
-        jTabbedPane1.addTab("Accepta oferta date", jPanel1);
+        jTabbedPane1.addTab("Retur Sold", jPanel1);
 
-        jCheckBox21.setText("taxa lunara + taxe STB-uri in euro cu TVA inclus");
+        jCheckBox21.setText("Clarifici cu clientul in ce data a efectuat plata, prin ce modalitate si ce suma a platit");
 
-        jCheckBox22.setText("canalele disponibile la momentul prelungirii contractului");
+        jCheckBox22.setText("In cazul in care plata este nealocata ii soliciti sa ne trimita copia dovezii de plata ");
 
-        jCheckBox23.setText("perioada contractuala");
-
-        jCheckBox24.setText("data la care intra in vigoare oferta");
+        jCheckBox24.setText("Te asiguri ca discuti cu titularul");
 
         jButton2.setText("Alt apel");
 
-        jCheckBox25.setFont(new java.awt.Font("Helvetica 75 Bold", 1, 14)); // NOI18N
-        jCheckBox25.setForeground(new java.awt.Color(204, 0, 0));
-        jCheckBox25.setText("Aplica procedura de identificare");
-
-        jCheckBox66.setText("14 zile calendaristice anulare oferta");
-
-        jCheckBox8.setText("promoveaza acordul din aplicatie");
-
-        jCheckBox10.setText("adresa trimitere act aditional");
-
-        jCheckBox16.setFont(new java.awt.Font("Helvetica 75 Bold", 1, 14)); // NOI18N
-        jCheckBox16.setForeground(new java.awt.Color(204, 0, 0));
-        jCheckBox16.setText("Asigura-te ca ai ofertat tot contul");
-        jCheckBox16.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox68.setText("Always on top");
+        jCheckBox68.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox16ActionPerformed(evt);
+                jCheckBox68ActionPerformed(evt);
             }
         });
 
@@ -495,32 +460,19 @@ public class MainFrame extends javax.swing.JFrame {
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jButton2)
-                .addGap(172, 172, 172))
             .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jCheckBox21)
-                            .addComponent(jCheckBox22)
-                            .addComponent(jCheckBox23)
-                            .addComponent(jCheckBox24)
-                            .addComponent(jCheckBox66)))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jCheckBox8))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jCheckBox10))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(89, 89, 89)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jCheckBox16)
-                            .addComponent(jCheckBox25))))
-                .addContainerGap(221, Short.MAX_VALUE))
+                    .addComponent(jCheckBox21)
+                    .addComponent(jCheckBox22)
+                    .addComponent(jCheckBox24))
+                .addContainerGap(174, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton2)
+                .addGap(172, 172, 172)
+                .addComponent(jCheckBox68)
+                .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -528,57 +480,56 @@ public class MainFrame extends javax.swing.JFrame {
                 .addGap(21, 21, 21)
                 .addComponent(jCheckBox24)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox21)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox22)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox23)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox66)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox8)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox10)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 78, Short.MAX_VALUE)
-                .addComponent(jCheckBox25)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox16)
-                .addGap(83, 83, 83)
-                .addComponent(jButton2)
-                .addContainerGap())
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(jCheckBox21)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jCheckBox22)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 341, Short.MAX_VALUE)
+                        .addComponent(jCheckBox68)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jButton2)
+                        .addGap(28, 28, 28))))
         );
 
-        jTabbedPane1.addTab("Accepta oferta TV", jPanel2);
+        jTabbedPane1.addTab("Plata nealocata", jPanel2);
 
-        jCheckBox44.setText("cost telefon/device, cost accesorii");
+        jCheckBox44.setText("Te asiguri ca discuti cu titularul");
 
-        jCheckBox62.setText("14 zile calendaristice retur");
+        jCheckBox62.setText("Trimiti clientului formularul de retur");
         jCheckBox62.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox62ActionPerformed(evt);
             }
         });
 
-        jCheckBox1.setText("adresa livrare");
-
-        jCheckBox65.setFont(new java.awt.Font("Helvetica 75 Bold", 0, 14)); // NOI18N
-        jCheckBox65.setForeground(new java.awt.Color(204, 0, 0));
-        jCheckBox65.setText("Aplica procedura de identificare");
-        jCheckBox65.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox65ActionPerformed(evt);
-            }
-        });
+        jCheckBox1.setText("Clarifici cu clientul in ce data a efectuat plata, prin ce modalitate si ce suma a platit - la transfer bani");
 
         jButton1.setText("Alt apel");
 
-        jCheckBox4.setText("persoana care primeste coletul si nr. de contact");
+        jCheckBox4.setText("Dupa primirea formularului, te asiguri ca datele sunt completate corect ");
 
-        jCheckBox17.setText("data emitere factura, rata si valoarea ei");
+        jCheckBox17.setText("In cazul in care banii achitati de client sunt alocati pe un alt customer,");
+        jCheckBox17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox17ActionPerformed(evt);
+            }
+        });
 
-        jLabel1.setFont(new java.awt.Font("Helvetica 75 Bold", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(204, 0, 0));
-        jLabel1.setText("! Atentie: nu se promoveaza consent la comanda de telefon din 4sale");
+        jLabel2.setText("trebuie contactat si acesta pentru a-l informa ca ii vom muta banii.");
+
+        jCheckBox7.setText("Posteaza situatia la Reconciliation");
+
+        jCheckBox69.setText("Always on top");
+        jCheckBox69.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox69ActionPerformed(evt);
+            }
+        });
+
+        jLabel3.setText(" Daca nu e de acord i se solicita sa faca dovada platii.");
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -587,32 +538,32 @@ public class MainFrame extends javax.swing.JFrame {
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel9Layout.createSequentialGroup()
+                        .addGap(253, 253, 253)
+                        .addComponent(jButton1)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(jPanel9Layout.createSequentialGroup()
+                        .addContainerGap()
                         .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addContainerGap()
                                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jCheckBox44)
                                     .addComponent(jCheckBox1)
-                                    .addComponent(jCheckBox62)))
+                                    .addComponent(jCheckBox62)
+                                    .addComponent(jCheckBox4)
+                                    .addComponent(jCheckBox7)
+                                    .addComponent(jCheckBox17, javax.swing.GroupLayout.PREFERRED_SIZE, 558, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(0, 41, Short.MAX_VALUE))
                             .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addContainerGap()
-                                .addComponent(jCheckBox4))
-                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addGap(493, 493, 493)
-                                .addComponent(jButton1)))
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addGap(59, 59, 59)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addComponent(jLabel1)
-                                .addGap(0, 0, Short.MAX_VALUE))
-                            .addComponent(jCheckBox65, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                                .addGap(21, 21, 21)
+                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel9Layout.createSequentialGroup()
+                                        .addComponent(jLabel3)
+                                        .addGap(0, 0, Short.MAX_VALUE))
+                                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))))
                 .addContainerGap())
-            .addGroup(jPanel9Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jCheckBox17)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jCheckBox69))
         );
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -627,40 +578,72 @@ public class MainFrame extends javax.swing.JFrame {
                 .addComponent(jCheckBox4)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jCheckBox17)
-                .addGap(109, 109, 109)
-                .addComponent(jCheckBox65)
-                .addGap(34, 34, 34)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 107, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox7)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 227, Short.MAX_VALUE)
                 .addComponent(jButton1)
-                .addContainerGap())
+                .addGap(5, 5, 5)
+                .addComponent(jCheckBox69))
         );
 
-        jTabbedPane1.addTab("Comanda device", jPanel9);
+        jTabbedPane1.addTab("Transfer bani de pe un cont pe altul", jPanel9);
 
-        jCheckBox26.setText("oferta este disponibila in acest moment, ulterior poate suferi modificari");
+        jCheckBox26.setText("Penalizari ");
 
-        jCheckBox27.setText("stabileste moment decizional");
+        jCheckBox27.setText("Servicii automate");
 
         jButton3.setText("Alt apel");
 
-        jCheckBox5.setText("propune 2 oferte ");
+        jCheckBox5.setText("Suma, data si ora amanarii");
+
+        jCheckBox40.setText("Metoda de plata");
+
+        jCheckBox41.setText("Recomanda-i sa faca confirmare de plata daca achita la banca, automate, posta");
+
+        jCheckBox45.setText("daca este activ il informezi despre suspendare, pierderea punctelor OTY");
+
+        jCheckBox47.setText("daca este suspendat il vei informa despre agentiile de recuperare si swoff");
+
+        jCheckBox48.setText("Daca are amanari repetate, recomanda schimbare de BD");
+
+        jCheckBox76.setText("Always on top");
+        jCheckBox76.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox76ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton3)
-                .addGap(170, 170, 170))
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jCheckBox26)
-                    .addComponent(jCheckBox27)
-                    .addComponent(jCheckBox5))
-                .addContainerGap(135, Short.MAX_VALUE))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel3Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jCheckBox26)
+                                    .addComponent(jCheckBox27)
+                                    .addComponent(jCheckBox5)
+                                    .addComponent(jCheckBox40)
+                                    .addComponent(jCheckBox41)
+                                    .addComponent(jCheckBox45)
+                                    .addComponent(jCheckBox47)
+                                    .addComponent(jCheckBox48)))
+                            .addGroup(jPanel3Layout.createSequentialGroup()
+                                .addGap(269, 269, 269)
+                                .addComponent(jButton3)))
+                        .addGap(0, 188, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jCheckBox76)))
+                .addContainerGap())
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -671,40 +654,40 @@ public class MainFrame extends javax.swing.JFrame {
                 .addComponent(jCheckBox27)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jCheckBox5)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 338, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox40)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox41)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox45)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox47)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox48)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 197, Short.MAX_VALUE)
                 .addComponent(jButton3)
-                .addContainerGap())
+                .addGap(16, 16, 16)
+                .addComponent(jCheckBox76))
         );
 
-        jTabbedPane1.addTab("Ma mai gandesc", jPanel3);
+        jTabbedPane1.addTab("Amanare/Reamanare de plata", jPanel3);
 
-        jCheckBox28.setText("data la care se proceseaza inchiderea");
+        jCheckBox28.setText("Identificare");
 
-        jCheckBox29.setText("sa nu existe datorii pe cont");
+        jCheckBox29.setText("Airtimelimit");
 
-        jCheckBox30.setText("taxa de trecere pe prepay cu TVA trecere pe prepay si data facturare");
-
-        jCheckBox31.setFont(new java.awt.Font("Helvetica 75 Bold", 1, 14)); // NOI18N
-        jCheckBox31.setForeground(new java.awt.Color(204, 0, 51));
-        jCheckBox31.setText("Aplica procedura de identificare");
-        jCheckBox31.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox31ActionPerformed(evt);
-            }
-        });
+        jCheckBox30.setText("Suma reconectare");
 
         jButton4.setText("Alt apel");
 
-        jCheckBox11.setText("retur echipament TV");
+        jCheckBox11.setText("Servicii automate");
 
-        jCheckBox18.setText("propune 2 oferte ");
+        jCheckBox18.setText("Barari/debarari raportat la bd sau cand revine in tara");
 
-        jCheckBox19.setFont(new java.awt.Font("Helvetica 75 Bold", 1, 14)); // NOI18N
-        jCheckBox19.setForeground(new java.awt.Color(204, 0, 0));
-        jCheckBox19.setText("Asigura-te ca ai ofertat tot contul");
-        jCheckBox19.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox63.setText("Always on top");
+        jCheckBox63.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox19ActionPerformed(evt);
+                jCheckBox63ActionPerformed(evt);
             }
         });
 
@@ -719,22 +702,18 @@ public class MainFrame extends javax.swing.JFrame {
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jCheckBox28)
                             .addComponent(jCheckBox29)
-                            .addComponent(jCheckBox30)))
+                            .addComponent(jCheckBox30)
+                            .addComponent(jCheckBox11)
+                            .addComponent(jCheckBox18))
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jCheckBox11))
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jCheckBox18)))
-                .addContainerGap(147, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jCheckBox19)
-                    .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(jCheckBox31)
-                        .addComponent(jButton4)))
-                .addGap(165, 165, 165))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jCheckBox63)))
+                .addContainerGap())
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGap(263, 263, 263)
+                .addComponent(jButton4)
+                .addContainerGap(281, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -749,36 +728,37 @@ public class MainFrame extends javax.swing.JFrame {
                 .addComponent(jCheckBox11)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jCheckBox18)
-                .addGap(75, 75, 75)
-                .addComponent(jCheckBox31)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox19)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 134, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 261, Short.MAX_VALUE)
                 .addComponent(jButton4)
+                .addGap(35, 35, 35))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jCheckBox63)
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Refuza oferta", jPanel4);
+        jTabbedPane1.addTab("Apel Limita credit", jPanel4);
 
-        jCheckBox20.setText("Oferta este disponibila in acest moment, ulterior poate suferi modificari");
+        jCheckBox20.setText("Exceptie penalizari ");
 
-        jCheckBox35.setText("Cererea dvs se va inchide");
+        jCheckBox35.setText("Servicii automate");
 
-        jCheckBox37.setFont(new java.awt.Font("Helvetica 75 Bold", 1, 14)); // NOI18N
-        jCheckBox37.setForeground(new java.awt.Color(204, 0, 0));
-        jCheckBox37.setText("Asigura-te ca ai ofertat tot contul");
-        jCheckBox37.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox49.setText("Rata lunara vs factura emisa ");
+
+        jCheckBox53.setText("Intelegerea telefonica nu se vede pe factura");
+
+        jCheckBox54.setText("Nu se pot face amanari de plata in aceasta perioada");
+
+        jCheckBox56.setText("Airtime 10 euro pentru monitorizare");
+
+        jCheckBox57.setText("In caz de nerespectare reconectarea se va face cu plata integrala si nu va mai primi amanare/esalonare");
+
+        jButton7.setText("Alt apel");
+
+        jCheckBox64.setText("Always on top");
+        jCheckBox64.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox37ActionPerformed(evt);
-            }
-        });
-
-        jCheckBox39.setFont(new java.awt.Font("Helvetica 75 Bold", 1, 14)); // NOI18N
-        jCheckBox39.setForeground(new java.awt.Color(204, 0, 51));
-        jCheckBox39.setText("Aplica procedura de identificare");
-        jCheckBox39.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox39ActionPerformed(evt);
+                jCheckBox64ActionPerformed(evt);
             }
         });
 
@@ -792,16 +772,21 @@ public class MainFrame extends javax.swing.JFrame {
                         .addGap(16, 16, 16)
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jCheckBox35)
-                            .addComponent(jCheckBox20)))
+                            .addComponent(jCheckBox20)
+                            .addComponent(jCheckBox49)
+                            .addComponent(jCheckBox53)
+                            .addComponent(jCheckBox54)
+                            .addComponent(jCheckBox56)
+                            .addComponent(jCheckBox57))
+                        .addGap(0, 62, Short.MAX_VALUE))
                     .addGroup(jPanel7Layout.createSequentialGroup()
-                        .addGap(159, 159, 159)
-                        .addComponent(jCheckBox37)))
-                .addContainerGap(123, Short.MAX_VALUE))
-            .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel7Layout.createSequentialGroup()
-                    .addGap(159, 159, 159)
-                    .addComponent(jCheckBox39)
-                    .addContainerGap(167, Short.MAX_VALUE)))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jCheckBox64)))
+                .addContainerGap())
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGap(268, 268, 268)
+                .addComponent(jButton7)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -810,17 +795,270 @@ public class MainFrame extends javax.swing.JFrame {
                 .addComponent(jCheckBox20)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jCheckBox35)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 188, Short.MAX_VALUE)
-                .addComponent(jCheckBox37)
-                .addGap(185, 185, 185))
-            .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel7Layout.createSequentialGroup()
-                    .addGap(242, 242, 242)
-                    .addComponent(jCheckBox39)
-                    .addContainerGap(212, Short.MAX_VALUE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox49)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox53)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox54)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox56)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox57)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 223, Short.MAX_VALUE)
+                .addComponent(jButton7)
+                .addGap(30, 30, 30))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jCheckBox64)
+                .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Pastreaza abonamentul existent", jPanel7);
+        jTabbedPane1.addTab("Esalonare de plata", jPanel7);
+
+        jCheckBox8.setText("Vei face identificare complexa intrucat modificarile pot aduce costuri suplimentare in contul clientului");
+
+        jCheckBox9.setText("Clarifici in ce tara calatoreste ");
+
+        jCheckBox10.setText("Intrebi daca doreste activare temporara sau permanenta a serviciului");
+
+        jCheckBox13.setText("Vei promova/activa optiuni pentru optimizare costuri in roaming");
+
+        jCheckBox14.setText("Nu uita sa il anunti care este valoare limitei de credit");
+
+        jCheckBox15.setText("Atentioneaza-l cu privire la consul de internet in roaming");
+
+        jCheckBox16.setText("Care sunt tarifele care se aplica dupa consumarea resurselor? Tarife ");
+
+        jCheckBox19.setText("daca clientul are un pachet de tip SEE ii vei explica clientului modalitatea de consum a resurselor nationale");
+
+        jCheckBox23.setText("Selectie manuala de retea, daca nu se inregistreaza automat");
+
+        jCheckBox25.setText("Cronos in roaming *115#");
+
+        jCheckBox31.setText("Promovare servicii automate pentru activare/dezactivare roaming, optiuni (ivr, ussd, myacc)");
+
+        jButton8.setText("Alt apel");
+
+        jCheckBox66.setText("Always on top");
+        jCheckBox66.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox66ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
+        jPanel10.setLayout(jPanel10Layout);
+        jPanel10Layout.setHorizontalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel10Layout.createSequentialGroup()
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel10Layout.createSequentialGroup()
+                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel10Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jCheckBox8)
+                                    .addComponent(jCheckBox9)
+                                    .addComponent(jCheckBox10)
+                                    .addComponent(jCheckBox13)
+                                    .addComponent(jCheckBox14)
+                                    .addComponent(jCheckBox15)
+                                    .addComponent(jCheckBox16)
+                                    .addComponent(jCheckBox19)
+                                    .addComponent(jCheckBox23)
+                                    .addComponent(jCheckBox25)
+                                    .addComponent(jCheckBox31)))
+                            .addGroup(jPanel10Layout.createSequentialGroup()
+                                .addGap(254, 254, 254)
+                                .addComponent(jButton8)))
+                        .addGap(0, 56, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jCheckBox66)))
+                .addContainerGap())
+        );
+        jPanel10Layout.setVerticalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel10Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jCheckBox8)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox9)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox10)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox13)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox14)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox15)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox16)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox19)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox23)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox25)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox31)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 145, Short.MAX_VALUE)
+                .addComponent(jButton8)
+                .addGap(3, 3, 3)
+                .addComponent(jCheckBox66)
+                .addContainerGap())
+        );
+
+        jTabbedPane1.addTab("Activare Roaming", jPanel10);
+
+        jCheckBox37.setText("Discutia se poate purta cu userul sau titularul");
+
+        jCheckBox39.setText("Clientul trebuie sa inchida/redeschida telefonul/STB");
+
+        jCheckBox50.setText("Ofera-i info despre prima factura emisa dupa reconectare (prorata, daca e cazul)");
+
+        jCheckBox55.setText("daca are mai mult de 3 suspendari BDEBT in ultimele 6 luni, se recomanda schimbare de BD ");
+
+        jCheckBox70.setText("Always on top");
+        jCheckBox70.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox70ActionPerformed(evt);
+            }
+        });
+
+        jButton9.setText("Alt apel");
+
+        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
+        jPanel11.setLayout(jPanel11Layout);
+        jPanel11Layout.setHorizontalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel11Layout.createSequentialGroup()
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jCheckBox70))
+                    .addGroup(jPanel11Layout.createSequentialGroup()
+                        .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel11Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jCheckBox37)
+                                    .addComponent(jCheckBox39)
+                                    .addComponent(jCheckBox50)
+                                    .addComponent(jCheckBox55)))
+                            .addGroup(jPanel11Layout.createSequentialGroup()
+                                .addGap(271, 271, 271)
+                                .addComponent(jButton9)))
+                        .addGap(0, 130, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel11Layout.setVerticalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel11Layout.createSequentialGroup()
+                .addComponent(jCheckBox37)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox39)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox50)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox55)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 302, Short.MAX_VALUE)
+                .addComponent(jButton9)
+                .addGap(14, 14, 14)
+                .addComponent(jCheckBox70)
+                .addContainerGap())
+        );
+
+        jTabbedPane1.addTab("FRDOF", jPanel11);
+
+        jCheckBox61.setText("Este necesar sa faci identificare complexa, deci asigura-te ca discuti cu titularul");
+
+        jCheckBox71.setText("Stabileste cu clientul pentru ce numere vrea reconectare");
+
+        jLabel4.setText(" (numerele care au perioada contractuala neincheiata trebuie reconectate obligatoriu)");
+
+        jCheckBox72.setText("Recomanda-i clientului sa inchida/redeschida telefonul/STB");
+
+        jCheckBox73.setText("Info despre prima factura emisa dupa reconectare (prorata, daca e cazul)");
+
+        jCheckBox74.setText("Daca nu doreste reconectarea, spune-i care sunt consecintele:");
+
+        jLabel5.setText("- va pierde definitiv numarul");
+
+        jLabel6.setText("- va trebui sa achite taxa de reziliere (daca e cazul)");
+
+        jLabel7.setText("- se va trimite la agentia de recuperare (daca mai are balanta pozitiva neachitata).");
+
+        jButton10.setText("Alt apel");
+
+        jCheckBox75.setText("Always on top");
+        jCheckBox75.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox75ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
+        jPanel12.setLayout(jPanel12Layout);
+        jPanel12Layout.setHorizontalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel12Layout.createSequentialGroup()
+                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel12Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jCheckBox61)
+                                    .addComponent(jCheckBox71)
+                                    .addComponent(jCheckBox72)
+                                    .addComponent(jCheckBox73)
+                                    .addComponent(jCheckBox74)
+                                    .addGroup(jPanel12Layout.createSequentialGroup()
+                                        .addGap(21, 21, 21)
+                                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel5)
+                                            .addComponent(jLabel4)
+                                            .addComponent(jLabel6)
+                                            .addComponent(jLabel7)))))
+                            .addGroup(jPanel12Layout.createSequentialGroup()
+                                .addGap(252, 252, 252)
+                                .addComponent(jButton10)))
+                        .addGap(0, 161, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel12Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jCheckBox75)))
+                .addContainerGap())
+        );
+        jPanel12Layout.setVerticalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jCheckBox61)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox71)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox72)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox73)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox74)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel5)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel7)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 201, Short.MAX_VALUE)
+                .addComponent(jButton10)
+                .addGap(18, 18, 18)
+                .addComponent(jCheckBox75))
+        );
+
+        jTabbedPane1.addTab("ADEBT", jPanel12);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -836,42 +1074,6 @@ public class MainFrame extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jCheckBox19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox19ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox19ActionPerformed
-
-    private void jCheckBox31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox31ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox31ActionPerformed
-
-    private void jCheckBox65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox65ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox65ActionPerformed
-
-    private void jCheckBox62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox62ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox62ActionPerformed
-
-    private void jCheckBox16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox16ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox16ActionPerformed
-
-    private void jCheckBox15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox15ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox15ActionPerformed
-
-    private void jCheckBox14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox14ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox14ActionPerformed
-
-    private void jCheckBox64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox64ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox64ActionPerformed
-
-    private void jCheckBox13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox13ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox13ActionPerformed
-
     private void jCheckBox12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox12ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox12ActionPerformed
@@ -880,26 +1082,62 @@ public class MainFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox3ActionPerformed
 
-    private void jCheckBox50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox50ActionPerformed
+    private void jCheckBox63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox63ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox50ActionPerformed
+    }//GEN-LAST:event_jCheckBox63ActionPerformed
 
-    private void jCheckBox37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox37ActionPerformed
+    private void jCheckBox67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox67ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox37ActionPerformed
+    }//GEN-LAST:event_jCheckBox67ActionPerformed
 
-    private void jCheckBox39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox39ActionPerformed
+    private void jCheckBox68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox68ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox39ActionPerformed
+    }//GEN-LAST:event_jCheckBox68ActionPerformed
+
+    private void jCheckBox17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox17ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox17ActionPerformed
+
+    private void jCheckBox62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox62ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox62ActionPerformed
+
+    private void jCheckBox69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox69ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox69ActionPerformed
+
+    private void jCheckBox64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox64ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox64ActionPerformed
+
+    private void jCheckBox66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox66ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox66ActionPerformed
+
+    private void jCheckBox70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox70ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox70ActionPerformed
+
+    private void jCheckBox75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox75ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox75ActionPerformed
+
+    private void jCheckBox76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox76ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox76ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JCheckBox jCheckBox10;
     private javax.swing.JCheckBox jCheckBox11;
@@ -934,33 +1172,64 @@ public class MainFrame extends javax.swing.JFrame {
     private javax.swing.JCheckBox jCheckBox38;
     private javax.swing.JCheckBox jCheckBox39;
     private javax.swing.JCheckBox jCheckBox4;
+    private javax.swing.JCheckBox jCheckBox40;
+    private javax.swing.JCheckBox jCheckBox41;
     private javax.swing.JCheckBox jCheckBox42;
     private javax.swing.JCheckBox jCheckBox43;
     private javax.swing.JCheckBox jCheckBox44;
+    private javax.swing.JCheckBox jCheckBox45;
     private javax.swing.JCheckBox jCheckBox46;
+    private javax.swing.JCheckBox jCheckBox47;
+    private javax.swing.JCheckBox jCheckBox48;
+    private javax.swing.JCheckBox jCheckBox49;
     private javax.swing.JCheckBox jCheckBox5;
     private javax.swing.JCheckBox jCheckBox50;
     private javax.swing.JCheckBox jCheckBox51;
     private javax.swing.JCheckBox jCheckBox52;
+    private javax.swing.JCheckBox jCheckBox53;
+    private javax.swing.JCheckBox jCheckBox54;
     private javax.swing.JCheckBox jCheckBox55;
+    private javax.swing.JCheckBox jCheckBox56;
+    private javax.swing.JCheckBox jCheckBox57;
+    private javax.swing.JCheckBox jCheckBox58;
+    private javax.swing.JCheckBox jCheckBox59;
     private javax.swing.JCheckBox jCheckBox6;
     private javax.swing.JCheckBox jCheckBox60;
     private javax.swing.JCheckBox jCheckBox61;
     private javax.swing.JCheckBox jCheckBox62;
+    private javax.swing.JCheckBox jCheckBox63;
     private javax.swing.JCheckBox jCheckBox64;
-    private javax.swing.JCheckBox jCheckBox65;
     private javax.swing.JCheckBox jCheckBox66;
+    private javax.swing.JCheckBox jCheckBox67;
+    private javax.swing.JCheckBox jCheckBox68;
+    private javax.swing.JCheckBox jCheckBox69;
     private javax.swing.JCheckBox jCheckBox7;
+    private javax.swing.JCheckBox jCheckBox70;
+    private javax.swing.JCheckBox jCheckBox71;
+    private javax.swing.JCheckBox jCheckBox72;
+    private javax.swing.JCheckBox jCheckBox73;
+    private javax.swing.JCheckBox jCheckBox74;
+    private javax.swing.JCheckBox jCheckBox75;
+    private javax.swing.JCheckBox jCheckBox76;
     private javax.swing.JCheckBox jCheckBox8;
     private javax.swing.JCheckBox jCheckBox9;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JTabbedPane jTabbedPane1;
     // End of variables declaration//GEN-END:variables
