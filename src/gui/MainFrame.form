@@ -734,12 +734,11 @@
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jCheckBox26" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox27" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="jCheckBox5" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="jCheckBox40" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCheckBox26" alignment="0" min="-2" pref="401" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="202" max="32767" attributes="0"/>
+                      <EmptySpace pref="164" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="32767" attributes="0"/>
@@ -754,12 +753,10 @@
                       <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                       <Component id="jCheckBox26" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jCheckBox27" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="jCheckBox5" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jCheckBox40" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="333" max="32767" attributes="0"/>
+                      <EmptySpace pref="356" max="32767" attributes="0"/>
                       <Component id="jButton3" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -770,11 +767,6 @@
             <Component class="javax.swing.JCheckBox" name="jCheckBox26">
               <Properties>
                 <Property name="text" type="java.lang.String" value="oferta este disponibila in acest moment, ulterior poate suferi modificari"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox27">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="stabileste moment decizional"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="jButton3">
@@ -825,7 +817,6 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jCheckBox28" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox29" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="jCheckBox30" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="jCheckBox11" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="jCheckBox18" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -840,9 +831,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                       <Component id="jCheckBox28" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jCheckBox29" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="jCheckBox30" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jCheckBox11" min="-2" max="-2" attributes="0"/>
@@ -850,7 +839,7 @@
                       <Component id="jCheckBox18" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jCheckBox41" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
                       <Component id="jCheckBox31" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jCheckBox19" min="-2" max="-2" attributes="0"/>
@@ -865,11 +854,6 @@
             <Component class="javax.swing.JCheckBox" name="jCheckBox28">
               <Properties>
                 <Property name="text" type="java.lang.String" value="data la care se proceseaza inchiderea"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox29">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="sa nu existe datorii pe cont"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JCheckBox" name="jCheckBox30">
