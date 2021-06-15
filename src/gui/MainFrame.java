@@ -75,7 +75,7 @@ public class MainFrame extends javax.swing.JFrame {
                 jCheckBox75, jCheckBox76, jCheckBox77, jCheckBox78, jCheckBox79, jCheckBox80,
                 jCheckBox59, jCheckBox81, jCheckBox82, jCheckBox83, jCheckBox84, jCheckBox85,
                 jCheckBox86, jCheckBox87, jCheckBox88, jCheckBox89, jCheckBox90, jCheckBox91,
-                jCheckBox92, jCheckBox93, jCheckBox94));
+                jCheckBox92, jCheckBox93, jCheckBox94, jCheckBox95,jCheckBox96));
     }
 
     private void setAlwaysOnTop() {
@@ -166,6 +166,8 @@ public class MainFrame extends javax.swing.JFrame {
         jTextField4 = new javax.swing.JTextField();
         jTextField3 = new javax.swing.JTextField();
         jCheckBox80 = new javax.swing.JCheckBox();
+        jCheckBox95 = new javax.swing.JCheckBox();
+        jCheckBox96 = new javax.swing.JCheckBox();
         jPanel7 = new javax.swing.JPanel();
         jCheckBox20 = new javax.swing.JCheckBox();
         jCheckBox35 = new javax.swing.JCheckBox();
@@ -694,7 +696,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
-        jCheckBox62.setText("14 zile calendaristice retur");
+        jCheckBox62.setText("14 zile calendaristice( pentru anularea de servicii+retur device) de la primirea coletului.");
         jCheckBox62.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox62ActionPerformed(evt);
@@ -809,6 +811,10 @@ public class MainFrame extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        jCheckBox95.setText("ratele oferite de Orange Romania vor fi finantate de catre Orange Money");
+
+        jCheckBox96.setText("datele personale declarate in angajamentul de plata se vor transfera catre Orange Money in scopul administrarii contractului de rate");
+
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
         jPanel9Layout.setHorizontalGroup(
@@ -847,7 +853,13 @@ public class MainFrame extends javax.swing.JFrame {
                         .addComponent(jCheckBox84))
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, 490, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, 490, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel9Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jCheckBox95))
+                    .addGroup(jPanel9Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jCheckBox96)))
                 .addGap(366, 366, 366))
         );
         jPanel9Layout.setVerticalGroup(
@@ -870,8 +882,12 @@ public class MainFrame extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jCheckBox84)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox95)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCheckBox96)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 8, Short.MAX_VALUE)
                 .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, 204, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 70, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton1)
@@ -1702,6 +1718,8 @@ public class MainFrame extends javax.swing.JFrame {
     private javax.swing.JCheckBox jCheckBox92;
     private javax.swing.JCheckBox jCheckBox93;
     private javax.swing.JCheckBox jCheckBox94;
+    private javax.swing.JCheckBox jCheckBox95;
+    private javax.swing.JCheckBox jCheckBox96;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;

@@ -803,6 +803,14 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jPanel12" min="-2" pref="490" max="-2" attributes="0"/>
                           </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jCheckBox95" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jCheckBox96" min="-2" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                       <EmptySpace min="-2" pref="366" max="-2" attributes="0"/>
                   </Group>
@@ -828,8 +836,12 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jCheckBox84" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jCheckBox95" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jCheckBox96" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="8" max="32767" attributes="0"/>
                       <Component id="jPanel12" min="-2" pref="204" max="-2" attributes="0"/>
-                      <EmptySpace pref="70" max="32767" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="jLabel1" min="-2" pref="16" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jButton1" min="-2" max="-2" attributes="0"/>
@@ -849,7 +861,7 @@
             </Component>
             <Component class="javax.swing.JCheckBox" name="jCheckBox62">
               <Properties>
-                <Property name="text" type="java.lang.String" value="14 zile calendaristice retur"/>
+                <Property name="text" type="java.lang.String" value="14 zile calendaristice( pentru anularea de servicii+retur device) de la primirea coletului."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox62ActionPerformed"/>
@@ -1066,6 +1078,16 @@
                 </Component>
               </SubComponents>
             </Container>
+            <Component class="javax.swing.JCheckBox" name="jCheckBox95">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ratele oferite de Orange Romania vor fi finantate de catre Orange Money"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="jCheckBox96">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="datele personale declarate in angajamentul de plata se vor transfera catre Orange Money in scopul administrarii contractului de rate"/>
+              </Properties>
+            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="jPanel7">
